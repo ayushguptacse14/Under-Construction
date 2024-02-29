@@ -22,36 +22,28 @@
       rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Layer Edge</title>
+    <style>
+      .container {
+        display: grid; /* Use grid layout */
+        place-items: center; /* Center items in both dimensions */
+        height: 100vh; /* Optional: Full height of the viewport */
+      }
+      img {
+        max-width: 480px; /* Maximum image width */
+        margin-bottom: 2rem; /* Space below the image */
+      }
+      .text {
+        text-align: center; /* Center the text */
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-10 main-title">
-          <img src="logo.svg" alt="Layer Edge Logo" style="max-width: 480px; margin-bottom: 2rem;">
-        </div>
-        <div class="col-md-10 main-title">
-          <h2>Coming Soon</h2>
-        </div>
+      <div>
+        <img src="logo.svg" alt="Layer Edge Logo">
+        <div class="text">Stay Tuned, Something is Cooking</div>
       </div>
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>

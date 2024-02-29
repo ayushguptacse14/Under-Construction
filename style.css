@@ -16,7 +16,18 @@ body{
     background-color: #222;
     background-image: url('background.png');
 }
-
+.container {
+    display: grid; /* Use grid layout */
+    place-items: center; /* Center items in both dimensions */
+    height: 100vh; /* Optional: Full height of the viewport */
+  }
+  img {
+    max-width: 480px; /* Maximum image width */
+    margin-bottom: 2rem; /* Space below the image */
+  }
+  .text {
+    text-align: center; /* Center the text */
+  }
 .main-title{
     text-align: center;
     margin-top: 4rem;
